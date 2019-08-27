@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-const logo     = require('./assets/logo.png');
-const btnJogar = require('./assets/botao_jogar.png');
-const btnSobreJogo = require('./assets/sobre_jogo.png');
-const btnOutrosJogos = require('./assets/outros_jogos.png');
+const logo     = require('../assets/logo.png');
+const btnJogar = require('../assets/botao_jogar.png');
+const btnSobreJogo = require('../assets/sobre_jogo.png');
+const btnOutrosJogos = require('../assets/outros_jogos.png');
 
-export default function App() {
+export default function Main() {
   return (
     <View style={styles.body}>
       <View style={styles.main}>
