@@ -1,12 +1,12 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import React, { Component } from 'react';
+import { Text } from 'react-native';
 
 export default class OutrosJogos extends Component {
     render() {
         return (
-            <Text style={}>
-                Jogos do dedesnvolvedor
+            <Text style={{ flex: 1, backgroundColor: '#61BD8C' }}>
+                Jogos do desenvolvedor
             </Text>
-        )
+        );
     }
 }
