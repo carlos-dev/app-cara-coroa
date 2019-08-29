@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Um app simples de cara ou coroa feito em react native.",
+    "githubUrl": "https://github.com/carlos-dev/app-cara-coroa"
   }
 }
